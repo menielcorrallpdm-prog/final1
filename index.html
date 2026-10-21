@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meniel Corral</title>
+    <style>
+        body { font-family: Arial, sems-serif;
+        display: flex; justify-content: center;
+        padding-top: 40px; background: #691e1e;}
+        .card{background: white; padding: 30px; border-radius: 16px; box-shadow:04px 20px rgba(0,0,0,0,1); text-align: center;width: 380px;}
+        .avatar{width: 130px;height: 130px;border-radius: 50%; object-fit: cover;border: 4px solid#456;cursor: pointer;
+        transition: transform.2s;}
+        .avatar.hover{transform:
+        scale(1.05);}
+        h1{margin: 15px 0 2px; transition: color 0.3s ease;}
+        p.subtitle{margin: 0 0 20px; color:pink;}
+        input, select {width: 100% ; padding: 10px; margin: 8px 0; border-radius:50%;}
+
+    </style>
+</head>
+<body>
+    <div class="card">
+        <img id="profileImg" class="avatar" src="">
+        <H1>Meniel Charmaine</H1>
+        <p class="subtitle"> BS Computer Science</p>
+        
+        <input type="text" id="nickname" placeholder="type your nickname">
+        <select id="year">
+            <option value ="">Select Year</option>
+            <option>1st Year</option>
+            <option>2nd Year</option>
+            <option>3rd Year</option>
+            <option>4rth Year</option>
+        </select>
+
+        <div class="btn-group">
+            <button id="clickBtn">Click</button>
+            <button id="dblClickBtn">Double Click</button>
+            <button id="PressHoldBtn">Press & Hold</button>
+        </div>
+
+        <p id="status"></p>
+    </div>
+
+    <script src="script.js"></script>
+            
+            
+        </select>
+    </div>
+    
+</body>
+</html>
